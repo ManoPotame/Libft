@@ -6,12 +6,18 @@
 /*   By: mcrenn <mcrenn@student.42angouleme.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 10:42:54 by mcrenn            #+#    #+#             */
-/*   Updated: 2025/11/12 18:26:06 by mcrenn           ###   ########.fr       */
+/*   Updated: 2026/04/03 15:36:43 by mcrenn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Funcion that convert ASCII characters to INT digits.
+ *
+ * @param nptr The string receves has argument.
+ * @return int
+ */
 int	ft_atoi(const char *nptr)
 {
 	int	i;
