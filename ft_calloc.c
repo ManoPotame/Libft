@@ -6,12 +6,19 @@
 /*   By: mcrenn <mcrenn@student.42angouleme.fr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/24 00:09:07 by mcrenn            #+#    #+#             */
-/*   Updated: 2025/11/12 10:24:16 by mcrenn           ###   ########.fr       */
+/*   Updated: 2026/04/18 14:30:13 by mcrenn           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Function that allocates memory and put all bytes to 0
+ *
+ * @param nmemb The number of element to allocate.
+ * @param size The size of byte of an alement (sizeof).
+ * @return void*
+ */
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*tab;
